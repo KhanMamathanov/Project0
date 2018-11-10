@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#navigate {
+	width: 100%;
+	height: 80px;
+	background-color: #6547b7;
+}
+ul li{
+	display: inline;
+	margin-left: 100%;
+	padding: 5px;
+	background-color: #a5c124;
+	border-radius: 20px 15px 10px 20px;
+	color: #201f26;
+}
+li a {
+	font-family: Segoe-UI, sans-serif;
+	text-decoration: none;
+	color: #201f26;
+}
+li a:hover {
+	font-family: Segoe-UI, sans-serif;
+	text-decoration: none;
+	color: #0b4f48;
+}
+.flexbox {
+	display: flex;
+	flex-wrap: wrap;
+}
